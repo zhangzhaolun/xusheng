@@ -1,0 +1,28 @@
+{
+    "name": "zhangzhaolun/xueshengkuangjia",
+    "authors": [
+        {
+            "name": "伦总",
+            "email": "550468106@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app"
+        }
+    },
+      "repositories":{
+          "packagist":{
+              "type":"composer",
+              "url":"https://packagist.phpcomposer.com"
+          }
+      }
+
+}
+
+
